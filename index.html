@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="VIS INC provides reliable trucking and freight transportation solutions across the United States." />
+  <title>VIS INC | Reliable Trucking & Freight Transportation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <p>Reliable trucking solutions across the United States</p>
+      <p><strong>USDOT:</strong> 3842928 &nbsp; | &nbsp; <a href="tel:+19454006416">(945) 400-6416</a></p>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#home" class="logo" aria-label="VIS INC home">
+        <img src="assets/vis-logo.jpg" alt="VIS INC logo">
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+
+      <nav class="nav" id="nav">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#drivers">Drivers</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="nav-cta" href="#contact">Get a Quote</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="slides" aria-hidden="true">
+        <div class="slide active" style="background-image:url('assets/truck-1.jpg')"></div>
+        <div class="slide" style="background-image:url('assets/truck-2.jpg')"></div>
+        <div class="slide" style="background-image:url('assets/truck-3.jpg')"></div>
+      </div>
+      <div class="hero-shade"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">VIS INC • Trucking Company</span>
+          <h1>Reliable Trucking. On Time. Every Time.</h1>
+          <p>Professional freight transportation built on safety, communication, and dependable service across the road.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn primary">Request a Quote</a>
+            <a href="tel:+19454006416" class="btn secondary">Call Now</a>
+          </div>
+
+          <div class="hero-stats">
+            <div><strong>24/7</strong><span>Dispatch Support</span></div>
+            <div><strong>US</strong><span>Freight Coverage</span></div>
+            <div><strong>Safety</strong><span>First Operations</span></div>
+          </div>
+
+          <div class="slider-tools">
+            <button id="prevSlide" aria-label="Previous slide">‹</button>
+            <div class="dots" id="dots"></div>
+            <button id="nextSlide" aria-label="Next slide">›</button>
+          </div>
+        </div>
+
+        <aside class="apply-card" id="drivers">
+          <h2>Apply To Drive</h2>
+          <p class="form-subtitle">Start your driver application with VIS INC.</p>
+
+          <form id="driverForm">
+            <div class="form-row">
+              <input type="text" name="firstName" placeholder="First Name" required>
+              <input type="text" name="lastName" placeholder="Last Name" required>
+            </div>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            <div class="form-row">
+              <input type="text" name="zip" placeholder="Zip Code">
+              <select name="experience" required>
+                <option value="">Experience</option>
+                <option>0-1 year</option>
+                <option>1-3 years</option>
+                <option>3+ years</option>
+              </select>
+            </div>
+            <label class="consent">
+              <input type="checkbox" required>
+              <span>I agree to be contacted by VIS INC by phone, email, or text regarding driving opportunities.</span>
+            </label>
+            <button type="submit" class="btn gold full">Submit Application</button>
+            <a href="tel:+19454006416" class="btn outline full">Call a Recruiter</a>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <section class="quick-strip">
+      <div class="container strip-grid">
+        <div class="strip-item"><span>01</span><h3>Fast Response</h3><p>Direct support and communication.</p></div>
+        <div class="strip-item"><span>02</span><h3>Safe Operations</h3><p>Professional and safety-focused.</p></div>
+        <div class="strip-item"><span>03</span><h3>Reliable Capacity</h3><p>Built for dependable freight movement.</p></div>
+        <div class="strip-item"><span>04</span><h3>Driver Focused</h3><p>Supportive operations for drivers.</p></div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-title">
+          <span>What We Do</span>
+          <h2>Trucking Services Built for Real Freight Needs</h2>
+          <p>VIS INC is focused on road transportation — no fake air freight or ocean freight. Just clear, reliable trucking service.</p>
+        </div>
+
+        <div class="cards">
+          <article class="service-card">
+            <div class="icon">🚚</div>
+            <h3>Dry Van Transportation</h3>
+            <p>Dependable dry van freight support for regular business shipping needs.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon">🛣️</div>
+            <h3>Regional & OTR</h3>
+            <p>Flexible transportation options for regional and long-distance freight.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon">📍</div>
+            <h3>Dedicated Freight</h3>
+            <p>Consistent trucking support for customers who need dependable capacity.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon">📞</div>
+            <h3>Dispatch Coordination</h3>
+            <p>Clear load communication and organized support from pickup to delivery.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img src="assets/truck-1.jpg" alt="VIS INC semi truck">
+        </div>
+        <div class="about-copy">
+          <span class="eyebrow dark">About VIS INC</span>
+          <h2>A Carrier-Focused Company Profile</h2>
+          <p>VIS INC is a trucking company focused on dependable freight movement, responsive operations, and professional service. Our website is designed to clearly represent who we are: a road transportation company built on trust and performance.</p>
+          <p>We help customers move freight with better communication, faster response, and a clean operational process.</p>
+          <ul>
+            <li>Reliable transportation support</li>
+            <li>Professional dispatch communication</li>
+            <li>Safety-first road operations</li>
+            <li>Clear company branding and trust</li>
+          </ul>
+          <a href="#contact" class="btn primary">Work With VIS</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process">
+      <div class="container">
+        <div class="section-title">
+          <span>Simple Process</span>
+          <h2>From Quote to Delivery</h2>
+        </div>
+        <div class="process-grid">
+          <div class="step"><b>1</b><h3>Request Quote</h3><p>Send load details and route information.</p></div>
+          <div class="step"><b>2</b><h3>Confirm Details</h3><p>We review schedule, pickup, and delivery requirements.</p></div>
+          <div class="step"><b>3</b><h3>Dispatch</h3><p>Freight is assigned and communication stays clear.</p></div>
+          <div class="step"><b>4</b><h3>Deliver</h3><p>Your freight moves safely and professionally.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <div class="container cta-inner">
+        <div>
+          <span>Ready to move freight?</span>
+          <h2>Partner with VIS INC for reliable trucking support.</h2>
+        </div>
+        <a href="#contact" class="btn gold">Get Started</a>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <span class="eyebrow dark">Contact VIS</span>
+          <h2>Request a Quote or Contact the Team</h2>
+          <p>Use this form as a visual placeholder. Later we can connect it to Formspree, EmailJS, or a custom backend.</p>
+
+          <div class="contact-details">
+            <p><strong>Phone:</strong> <a href="tel:+19454006416">(945) 400-6416</a></p>
+            <p><strong>Email:</strong> <a href="mailto:it@vistrans.net">it@vistrans.net</a></p>
+            <p><strong>USDOT:</strong> 3842928</p>
+          </div>
+        </div>
+
+        <form class="quote-form" id="quoteForm">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Email Address" required>
+          <input type="tel" placeholder="Phone Number">
+          <select>
+            <option>Service Needed</option>
+            <option>Dry Van Transportation</option>
+            <option>Dedicated Freight</option>
+            <option>Regional / OTR</option>
+            <option>Driver Application</option>
+          </select>
+          <textarea placeholder="Tell us about your freight or request"></textarea>
+          <button class="btn primary full" type="submit">Send Request</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <img src="assets/vis-logo.jpg" alt="VIS INC logo" class="footer-logo">
+        <p>Reliable trucking and freight transportation solutions across the United States.</p>
+      </div>
+      <div>
+        <h3>Company</h3>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#drivers">Drivers</a>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <a href="tel:+19454006416">(945) 400-6416</a>
+        <a href="mailto:it@vistrans.net">it@vistrans.net</a>
+        <p>USDOT 3842928</p>
+      </div>
+      <div>
+        <h3>Legal</h3>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">SMS Consent</a>
+      </div>
+    </div>
+    <div class="container copyright">© 2026 VIS INC. All rights reserved.</div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
