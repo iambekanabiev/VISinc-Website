@@ -125,3 +125,33 @@ footer a{display:block;color:#c8d7ed;margin:8px 0}
   .section{padding:72px 0}
   .about-image img{height:360px}
 }
+/* ===== GOOGLE MAP SECTION ===== */
+
+.map-section {
+  background: #f4f7fb;
+  padding: 90px 0;
+}
+
+.map-header {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.map-header h2 {
+  font-size: clamp(34px, 5vw, 52px);
+  line-height: 1.05;
+  margin-bottom: 12px;
+}
+
+.map-header p {
+  color: #66758a;
+  font-size: 18px;
+}
+
+.map-wrapper {
+  width: min(1200px, calc(100% - 32px));
+  margin: 0 auto;
+  border-radius: 26px;
+  overflow: hidden;
+  box-shadow: 0 22px 50px rgba(4,17,38,.18);
+}
